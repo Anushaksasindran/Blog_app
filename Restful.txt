@@ -1,0 +1,26 @@
+RESTful routing
+________________
+
+7 restful routes
+------------------
+
+NAME            PATH             HTTP VERB           PURPOSE
+--------------------------------------------------------------------
+Index          /blogs               GET             List all blogs
+New            /blogs/new           GET             Show new page
+Create         /blogs               POST            Create new blog
+Show           /blogs/:id           GET             Show more info
+Edit           /blogs/:id/edit      GET             Show edit page
+Submit         /blogs/:id           PUT             Update info
+Destroy        /blogs/:id          DELETE           Delete blog
+
+
+
+Packages required:
+-----------------------
+bodyParser
+ejs
+mongoose
+express
+express.sanitizer
+                           
